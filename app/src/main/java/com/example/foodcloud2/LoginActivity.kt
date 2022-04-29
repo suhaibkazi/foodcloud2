@@ -3,6 +3,7 @@ package com.example.foodcloud2
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -40,6 +41,7 @@ class LoginActivity : AppCompatActivity() {
                 password.error = this.resources.getString(R.string.please_pass)
                 password.requestFocus()
             } else if(user.isNotEmpty() && pwd.isNotEmpty()){
+//                Log.e("Pass is ", pwd.md5())
                 val postListener = object: ValueEventListener {
                     override fun onDataChange(snapshot: DataSnapshot) {
                         for(postSnapshot in snapshot.children){
@@ -49,28 +51,17 @@ class LoginActivity : AppCompatActivity() {
 
                                 Toast.makeText(this@LoginActivity, "Signed in", Toast.LENGTH_SHORT).show()
                             }
-
-
                         }
-
                     }
-
                     override fun onCancelled(error: DatabaseError) {
-
                     }
-
                 }
-
                 ref.addListenerForSingleValueEvent(postListener)
-
             }
         }
-
     }
     fun String.md5(): String {
         val md = MessageDigest.getInstance("MD5")
         return BigInteger(1, md.digest(toByteArray())).toString(16).padStart(32, '0')
     }
-
-
 }

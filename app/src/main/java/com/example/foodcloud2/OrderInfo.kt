@@ -35,7 +35,7 @@ class OrderInfo : AppCompatActivity() {
         infobtn=findViewById(R.id.info_btn)
          result= intent.getStringExtra("RESULT").toString()
         ID=result.take(36)
-        phonenumber=result.takeLast(12)
+        phonenumber=result.takeLast(13)
         red=findViewById(R.id.redeemed)
         val database = FirebaseDatabase.getInstance()
         val myRef = database.reference.child("Orders").child(phonenumber)

@@ -1,95 +1,42 @@
 {
   "project_info": {
-    "project_number": "612747645551",
-    "firebase_url": "https://foodcloud-1f76b.firebaseio.com",
-    "project_id": "foodcloud-1f76b",
-    "storage_bucket": "foodcloud-1f76b.appspot.com"
+    "project_number": "487085144248",
+    "firebase_url": "https://foodcloud-a3b96-default-rtdb.firebaseio.com",
+    "project_id": "foodcloud-a3b96",
+    "storage_bucket": "foodcloud-a3b96.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:612747645551:android:ae3e61bbc24a1b1768b39a",
-        "android_client_info": {
-          "package_name": "com.example.customdrawerexample"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "612747645551-uqkr0j7fh80962hjh5uajgb1an38n3j6.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.customdrawerexample",
-            "certificate_hash": "b5b49d7f91a76a15ab7c7eff83751370aa3f0eea"
-          }
-        },
-        {
-          "client_id": "612747645551-vfrnrea6j2aldqu0vosmlsc0vu1iclnc.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCnvnV9YFmmsuVJEe1pL3jnSTsRHJ283bo"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "612747645551-vfrnrea6j2aldqu0vosmlsc0vu1iclnc.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:612747645551:android:e68af151e39c7a8568b39a",
+        "mobilesdk_app_id": "1:487085144248:android:2e923f50d16c4052831c4d",
         "android_client_info": {
           "package_name": "com.example.foodcloud"
         }
       },
       "oauth_client": [
         {
-          "client_id": "612747645551-9gv6jputt71v7pigks641q12isioaihb.apps.googleusercontent.com",
+          "client_id": "487085144248-n9m5k89vj0qncbkjndolfanr2pgm86iv.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.foodcloud",
-            "certificate_hash": "e19930e5838ab0217e38b21d3fb001113905e816"
+            "certificate_hash": "055f6b0ce676966088471f65a9d69469b0b1111f"
           }
         },
         {
-          "client_id": "612747645551-ac767bekdk7vo99r4l7pgisur96h2kie.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.foodcloud",
-            "certificate_hash": "4aaeda1fd1405e48fd9979d1f5fc6fc24ff6898c"
-          }
-        },
-        {
-          "client_id": "612747645551-ub0dr2k9tncivc7i4jiff8dd26cuqmtk.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.foodcloud",
-            "certificate_hash": "b5b49d7f91a76a15ab7c7eff83751370aa3f0eea"
-          }
-        },
-        {
-          "client_id": "612747645551-vfrnrea6j2aldqu0vosmlsc0vu1iclnc.apps.googleusercontent.com",
+          "client_id": "487085144248-95g7sqdnsiqtgaltqg280i3hephvtv37.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCnvnV9YFmmsuVJEe1pL3jnSTsRHJ283bo"
+          "current_key": "AIzaSyABqrJ4T9X-CCWRxu2p9P7cF8e_WNq8ZK8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "612747645551-vfrnrea6j2aldqu0vosmlsc0vu1iclnc.apps.googleusercontent.com",
+              "client_id": "487085144248-95g7sqdnsiqtgaltqg280i3hephvtv37.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -98,35 +45,35 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:612747645551:android:646d3a9d510da9bc68b39a",
+        "mobilesdk_app_id": "1:487085144248:android:c88c8f8e035dc3ee831c4d",
         "android_client_info": {
           "package_name": "com.example.foodcloud2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "612747645551-ctbju1bsom8k02ecqpcu3jda491it8gk.apps.googleusercontent.com",
+          "client_id": "487085144248-isum64d17vd298jeu90poqc5al5mba1s.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.foodcloud2",
-            "certificate_hash": "b5b49d7f91a76a15ab7c7eff83751370aa3f0eea"
+            "certificate_hash": "055f6b0ce676966088471f65a9d69469b0b1111f"
           }
         },
         {
-          "client_id": "612747645551-vfrnrea6j2aldqu0vosmlsc0vu1iclnc.apps.googleusercontent.com",
+          "client_id": "487085144248-95g7sqdnsiqtgaltqg280i3hephvtv37.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCnvnV9YFmmsuVJEe1pL3jnSTsRHJ283bo"
+          "current_key": "AIzaSyABqrJ4T9X-CCWRxu2p9P7cF8e_WNq8ZK8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "612747645551-vfrnrea6j2aldqu0vosmlsc0vu1iclnc.apps.googleusercontent.com",
+              "client_id": "487085144248-95g7sqdnsiqtgaltqg280i3hephvtv37.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
